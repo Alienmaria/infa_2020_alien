@@ -213,7 +213,7 @@ class Impostor(pygame.sprite.Sprite):
                     self.aaa = 0
                     self.fff = 0
             print (self.aaa, self.fff, self.eee, self.change_y, self.change_x) 
-            if self.change_y**2 < 0.1 and self.change_x**2 == 0.1:
+            if self.change_y**2 < 1 and self.change_x**2 < 0.1:
                 self.aaa = 0
         #второй вариант броуновского движения упрощенный    
         #if self.c == 0:
