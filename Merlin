@@ -282,7 +282,7 @@ class Vin(pygame.sprite.Sprite):
             self.y = random.randint(420, 600)
         if self.c ==3:
             self.x = random.randint(1120, 1500)
-            self.y = random.randint(450, 0)
+            self.y = random.randint(0, 450)
            
     def update(self):
         #проверка на видимость игрока
